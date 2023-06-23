@@ -1,0 +1,172 @@
+:root {
+    --text: #000000;
+    --background: #ffffff;
+    --primary-button: #8fb4ff;
+    --secondary-button: #ebf1ff;
+    --accent: #ff8f94;
+    --font: 'ibm_3270medium';
+}
+
+
+@font-face {
+    font-family: 'ibm_3270_narrowmedium';
+    src: url('3270_narrow_500-webfont.woff2') format('woff2'),
+         url('3270_narrow_500-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ibm_3270_semi-narrowmedium';
+    src: url('/assets/3270_semi-narrow_500-webfont.woff2') format('woff2'),
+         url('/assets/3270_semi-narrow_500-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ibm_3270medium';
+    src: url('/assets/3270-medium_500-webfont.woff2') format('woff2'),
+         url('/assets/3270-medium_500-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: ibm_3270medium;
+}
+
+.header{
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid;
+    min-width: 100%;
+}
+
+.menu {
+
+}
+
+.menu ul{
+    list-style: none;
+    text-align: right;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 2px;
+    padding: 3px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    min-height: 80vh;
+    min-width: 100%;
+
+}
+
+.content .container {
+    /* border: 1px solid;
+    margin-top: -1px;
+    margin-left: -1px; */
+    padding-top: 20px;
+}
+
+.container1{
+    flex: 1;
+}
+
+.container2{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container3{
+    flex: 1;
+}
+
+
+.container ul{
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+a{
+
+    text-decoration: none;
+}
+
+.heading__sidebar{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    background: var(--secondary-button);
+}
+
+.container li{
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border-bottom: 1px dashed;
+}
+
+.bio{
+    max-width: 60%;
+    text-align: left;
+    letter-spacing: 0.7px;
+    line-height: 1.2em;
+}
+
+.intro h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.sogeking{
+    padding-top: 10px;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
+    
+}
+
+.footer{
+    border-top: 1px solid;
+    display: flex;
+    min-height: 5vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    text-align: center;
+}
+
+
+
